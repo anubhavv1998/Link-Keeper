@@ -1,0 +1,19 @@
+{
+
+	"name":"Link Keeper",
+	"description":"Stores multiple Link",
+	"version":"0.0.1",
+
+	"manifest version":2,
+	"browser_action":{
+		"default_icon":"icon.png",
+		"default_popup":"popup.html"
+
+	},
+
+	"permissions":[
+		"tabs",
+		"storage"
+	]
+
+}
